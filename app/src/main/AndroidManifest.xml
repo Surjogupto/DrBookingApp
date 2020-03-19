@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bookdr">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".Activities.RegisterActivitiy"
+            android:label="Register"
+            android:parentActivityName=".Activities.LoginActivity" />
+        <activity
+            android:name=".Activities.WelcomeScreenActivity"
+            android:theme="@style/LoginTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activities.LoginActivity"
+            android:theme="@style/LoginTheme" />
+        <activity
+            android:name=".Activities.DashBoard"
+            android:label="@string/title_activity_dash_board"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.DrListActivity"
+            android:label="@string/Doctor"
+            android:parentActivityName=".Activities.DashBoard" />
+        <activity
+            android:name=".Activities.GetAppointmentActivity"
+            android:label="Get Appointment"
+            android:parentActivityName=".Activities.DrListActivity" />
+        <activity android:name=".Activities.MainActivity" />
+    </application>
+
+</manifest>

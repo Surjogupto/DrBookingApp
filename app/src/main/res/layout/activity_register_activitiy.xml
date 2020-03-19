@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.RegisterActivitiy"
+
+    android:gravity="center"
+    android:orientation="vertical"
+
+
+    >
+    <ImageView
+        android:background="@drawable/logo"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+
+        />
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/inputBox"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/fname"
+            style="@style/InputEditText"
+            android:textColorHint="@color/colorPrimary"
+            android:hint="First Name"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/inputBox"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/lname"
+            style="@style/InputEditText"
+            android:hint="Last Name"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/inputBox"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/username"
+            style="@style/InputEditText"
+            android:hint="Username"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/inputBox"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/pwd"
+            style="@style/InputEditText"
+            android:inputType="textPassword"
+            android:hint="Password"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/inputBox"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:hint="Address"
+            android:id="@+id/address"
+            style="@style/InputEditText"
+            android:singleLine="false"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/inputBox"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/phoneno"
+            style="@style/InputEditText"
+            android:inputType="number"
+            android:hint="Phone No"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/inputBox"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/email"
+            style="@style/InputEditText"
+            android:inputType="textEmailAddress"
+            android:hint="Email"
+
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+    <Button
+        android:id="@+id/Rregister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/buttonbackground"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:hint="@string/Register"
+        android:textColorHint="#fff"
+        android:textColor="#fff"
+        android:singleLine="true"
+
+
+        />
+
+
+
+
+
+</LinearLayout>

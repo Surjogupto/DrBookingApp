@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">TATA MEDICAL</string>
+    <string name="title_activity_dash_board">TATA MEDICAL</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_Appointments">Appointments</string>
+    <string name="menu_History">History</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+
+    <!-- LOGIN -->
+    <string name="Login">LOGIN</string>
+    <string name="ForgotPassword">Forgot Password</string>
+    <string name="SignUp">Sign Up</string>
+
+    <!-- Register -->
+    <string name="Register">SIGN UP</string>
+
+    <!--Dash Board -->
+    <string name="username">username</string>
+    <string name="useremail">useremail@gmail.com</string>
+    <string name="DepartmentList">Department List</string>
+    <string name="settings">Settings</string>
+    <string name="Logout">LOGOUT</string>
+
+
+    <!--GetSchedule-->
+    <string name="Available">Book Now</string>
+    <string name="NotAvailable">Not Available</string>
+
+
+    <!--Ticket Details-->
+    <string name="Name">Name</string>
+    <string name="AppointmentBoked">Appointment Boked</string>
+    <string name="Doctor">Doctor List</string>
+    <string name="From">From</string>
+    <string name="To">To</string>
+
+
+
+
+
+
+
+
+
+    <string name="hint_name">Full Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="btn_sign_up">Sign Up</string>
+    <string name="err_msg_name">Enter User Name</string>
+    <string name="err_msg_email">Enter valid email address</string>
+    <string name="err_msg_password">Enter the password</string>
+
+</resources>
